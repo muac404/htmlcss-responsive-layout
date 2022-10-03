@@ -71,8 +71,12 @@
     height: 100px;
     background-color: lightblue;
     margin: 10px;
+    border-radius: 15px;
 }
 
+.col-1{
+    border-radius: 15px;
+}
 /* RESPONSIVE MAIN */
 
 @media screen and (min-width: 768px) {
@@ -126,6 +130,11 @@
     background-color: #9792e4;
     
 }
+
+.benefits-row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .benefit-col-1{
     text-align: center;
 }
@@ -138,3 +147,15 @@
     margin: 10px;
     padding: 20px;
 }
+
+@media screen and (min-width: 768px) {
+   .benefit-col{
+    width: calc(50% - 20px);
+   }
+}
+
+@media screen and (min-width: 992px) {
+    .benefit-col{
+     width: calc(33.3% - 20px);
+    }
+ }
