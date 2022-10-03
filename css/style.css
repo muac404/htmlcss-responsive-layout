@@ -97,7 +97,7 @@
     height: 200px;
     width: 100%;
     background-color: #9792e4;
-    border: 1px solid black;
+    border: 1px dotted black;
     
 }
 
@@ -128,6 +128,7 @@
 
 .work-with-us{
     background-color: #9792e4;
+    
     
 }
 
@@ -183,4 +184,16 @@
         width: calc(25% - 20px);
      }
     
+ }
+
+ .get-started{
+    text-align: center;
+    background-color: #9792e4 ;
+    color: white;
+ }
+
+ footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
  }
