@@ -84,3 +84,17 @@
         margin: 10px;
     }
 }
+
+
+.strategic {
+    height: 200px;
+    width: 100%;
+    background-color: #9792e4;
+    
+}
+
+@media screen and (min-width: 992px) {
+    .strategic{
+        width: 50%;
+    }
+}
