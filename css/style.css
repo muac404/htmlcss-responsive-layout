@@ -107,6 +107,14 @@ body{
     text-align: center;
     color: white;
  }
+
+.work-with-us h2{
+    color: white;
+    font-size: 28px;
+}
+
+
+
 /* COMMON */
 .container{
     
@@ -369,7 +377,7 @@ main{
 .work-with-us{
     background-color: #9792e4;
     margin-top: 80px;
-    
+    padding-top: 80px;
     
     
 }
