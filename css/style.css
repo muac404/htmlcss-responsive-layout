@@ -340,6 +340,7 @@ main{
 }
  .partner-img{
     border-radius: 50%;
+    text-align: center;
  }
 .partner-img img{
     width: 200px;
@@ -347,6 +348,21 @@ main{
     object-fit: cover;
     border-radius: 50%;
     
+}
+
+@media screen and (min-width: 768px) {
+    .partner-col{
+        display: flex;
+        align-items: center;
+    }
+    .partner-text p{
+        text-align: left;
+        padding-left: 20px;
+
+    }
+    .partner-text h3{
+        text-align: left;
+        padding-left: 20px;
 }
 .work-with-us{
     background-color: #9792e4;
