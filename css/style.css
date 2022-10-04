@@ -83,7 +83,7 @@ body{
  }
 
  .partner-section h2{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 800;
     color: #9792e4;
     margin-top: 20px;
@@ -93,6 +93,19 @@ body{
  .partner-section span{
     font-size: 24px;
     font-weight: 200;
+ }
+
+ .partner-text p{
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+ }
+
+ .partner-text h3{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
  }
 /* COMMON */
 .container{
@@ -306,20 +319,35 @@ main{
     width: 100%;
     margin: 40px;
     background-color: white;
-    width: calc(100% - 20px);
-    margin: 10px;
+    width: calc(80% - 20px);
+    margin-left: auto;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-right: auto;
     border-radius: 20px;
 }
 
 .partner-col{
     border-radius: 20px;
     
-    height: 100px;
+    padding: 20px; 
     background-color: #9792e4;
-    width: calc(100% - 20px);
-    margin: 10px;
+    width: calc(80% - 20px);
+    margin-left: auto;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-right: auto;
 }
-
+ .partner-img{
+    border-radius: 50%;
+ }
+.partner-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
 .work-with-us{
     background-color: #9792e4;
     
