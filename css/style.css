@@ -141,7 +141,10 @@ p{
     font-size: 26px;
     color: #9792e4;
 }
-
+.get-started h3{
+    font-weight: 100;
+    color: white;
+}
 .get-started h1{
     font-size: 60px;
     color: #fdc15f;
@@ -153,7 +156,10 @@ p{
     margin: auto;
 }
 
-
+.container-small{
+    max-width: 400px;
+    margin: auto;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -233,6 +239,15 @@ p{
     margin-bottom: 20px;
 }
 
+.get-started button{
+    background-color: white;
+    color: #9792e4;
+    padding: 15px 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
 /* RESPONSIVE HEADER */
 
 @media screen and (max-width: 992px) {
@@ -507,10 +522,18 @@ main{
     background-color: #9792e4 ;
     color: white;
     padding-top: 40px;
+    padding-bottom: 40px;
  }
 
  footer{
     background-color: #333333;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
+ }
+
+ .container-small small{
+    margin-top: 20px;
+    margin-bottom: 20px;
  }
