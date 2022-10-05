@@ -108,11 +108,25 @@ body{
     color: white;
  }
 
-.work-with-us h2{
-    color: white;
+.benefit-col-1{
+    color:white;
     font-size: 28px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.benefit-col h3{
+    font-size: 40px;
+    color: #9792e4;
+}
+
+.benefit-col h2{
+    color:#9792e4;
+    font-size: 28px;
+    margin-bottom: 20px;
+   
+}
 
 
 /* COMMON */
@@ -179,6 +193,16 @@ body{
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.benefit-col button{
+    background-color:#9792e4;
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -343,7 +367,7 @@ main{
     width: calc(80% - 20px);
     margin-left: auto;
     margin-top: 10px;
-    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: auto;
 }
  .partner-img{
@@ -393,10 +417,13 @@ main{
 .benefit-col{
     background-color: white;
     border-radius: 20px;
-    
-    width: calc(100% - 20px);
-    margin: 10px;
+    width: calc(80% - 20px);
+   
     padding: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
