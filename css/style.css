@@ -488,10 +488,12 @@ main{
 
  @media screen  and (min-width: 768px) {
     .about-us-col-1{
-        width: calc(75% - 20px);
+        width: calc(70% - 20px);
+        padding: 20px;
      }
      .about-us-col-2{
-        width: calc(25% - 20px);
+        width: calc(30% - 20px);
+        padding: 20px;
      }
     
  }
