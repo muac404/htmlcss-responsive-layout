@@ -11,6 +11,9 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+p{
+    line-height: 2;
+ }
 .col-1 h3{
     font-size: 28px;
     color: #0084fd;
@@ -100,6 +103,7 @@ body{
     font-weight: 200;
     color: white;
     text-align: center;
+    margin-top: 10px;
  }
 
  .partner-text h3{
@@ -128,6 +132,15 @@ body{
    
 }
 
+.about-us-col-1 h2{
+    font-size: 30px;
+    color: #9792e4;
+}
+
+.about-us-col-2 h3{
+    font-size: 26px;
+    color: #9792e4;
+}
 
 /* COMMON */
 .container{
@@ -172,6 +185,8 @@ body{
 .hamburger i{
     font-size: 20px;
 }
+
+
  /* BUTTONS */
 
 .btn{
@@ -205,6 +220,14 @@ body{
     margin-bottom: 10px;
 }
 
+.about-us-col-2 button{
+    background-color: #9792e4;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* RESPONSIVE HEADER */
 
@@ -451,6 +474,16 @@ main{
  .about-us-col-2{
     width: calc(100% - 20px);
     margin: 10px;
+ }
+
+ .about-us-col-2 img{
+    width: 100%;
+    border-radius: 50%;
+ }
+
+ .about-img{
+    width: 200px;
+    height: 200px;
  }
 
  @media screen  and (min-width: 768px) {
