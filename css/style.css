@@ -423,6 +423,10 @@ main{
     border-radius: 50%;
     
 }
+.partner-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 @media screen and (min-width: 768px) {
     .partner-col{
